@@ -3,7 +3,7 @@ function firstChar(text) {
 	let x = text.split('')
 	if(x[0]==" "){
 		return x[1].toString();
-	}else if(x.length==1&&x[0]==" "){
+	}else if(x.length==1&&x[0]==" "||x.length==0){
 		return " "
 	}
 	else{
@@ -14,7 +14,7 @@ function firstChar(text) {
 }
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
 
 
